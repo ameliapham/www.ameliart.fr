@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cv.css"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Amélia</title>
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <div id="headZone">
+            <video autoplay muted loop id="headVideo">
+                <source src="homepage/headZone/headVideo.mp4" type="video/mp4">
+            </video>
+        
+            <div class="headTextZone">
+                <img src="homepage/headZone/headText.png" id="headText">
+            </div>
+        </div>
+
+        <!--Navigateur Bar--> 
+        <div id="bar"> 
+            <a href="index.html">
+                <img src="logo.png" id="logo"/>
+            </a>
+            <div id="menuZone">
+                <a href="porfolio.html" class="menu">Porfolio</a>
+                <a href="uiux.html" class="menu">UIUX</a>
+                <a href="web.html" class="menu">Web Design</a>
+                <a href="graphic.html" class="menu">Design graphique</a>
+                <a href="contact.html" class="menu">Contact</a>
+            </div>
+        </div>
+
+        <!--A propos de moi-->
+        <div style="display:flex;justify-content: center;">
+            <div id="meZone">   
+                <img src="homepage/meZone/mePhoto.jpg" id="mePhoto">
+                <div id="meTextZone">
+                    <h1 class="meTitre titre" >Moi.</h1>
+                    <div>
+                        <div class="meSousTitre sousTitre">Salut,</div>
+                        <div class="mesousTitre">
+                            <span class="sousTitre">je suis Amélia !</span>
+                        </div>
+                    </div>
+                    <p class="paragraph">Mon prénom est Huong (PHAM), mais tout le monde m’appelle Amélia. Passionnée par la création numérique j’éprouve un plaisir intense  à concevoir des pages web. Elles me permettent d’exprimer ma  créativité. Je ne perds pas pour autant de vue qu’une interface  graphique se doit avant tout d’être claire et fonctionnelle.  Travailler sous cette double contrainte, joindre l’esthétique aux  fonctionnelles, c’est ce qui me plaît et me motive.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Projets - UIUX-->
+        <div style="display:flex;justify-content: center;">
+            <div id="uiuxZone">   
+                <div id="uiuxTextZone">
+                    <h1 class="uiuxTitre titre" >Projets.</h1>
+                    <h2 class="sousTitre">UI, UX Application</h2>
+                    <p class="paragraph">L'ensemble de mes projets où je suis en change du design UI UX et ses fontionalités.</p>
+                    <a href="uiux.html">
+                        <button class="button">En Savoir Plus</button>
+                    </a>
+                </div>
+                <img src="homepage/projetZone/uiuxbad.png" id="uiuxbad">
+            </div>
+        </div>
+
+        <!--Projets - Web-->
+        <div style="display:flex;justify-content: center;">
+            <div id="webZone"> 
+                <img src="homepage/projetZone/web.png" id="webPhoto">  
+                <div id="webTextZone">
+                    <h2 class="sousTitre">Web Design</h2>
+                    <p class="paragraph">Les sites web à mes clients et aux entreprises où je travaille. En plus d'être en charge du design web, je conçois également des fonctionnalités minimales pour les plateformes du cours avec l'aide de Wordpress.</p>
+                    <a href="web.html">
+                        <button class="button">En Savoir Plus</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!--Projets - Graphic-->
+        <div style="margin-top:100px; margin-bottom: 100px;">
+            <h2 class="graSoustitre sousTitre">Design graphique</h2>
+            <p class="graParagraph paragraph">Autres petits projets en faveur du design graphique.</p>
+            <div style="display:flex;justify-content: center; margin-bottom: 80px;">
+                <a href="graphic.html">
+                    <button class="button">En Savoir Plus</button>
+                </a>
+            </div>
+            <!--<div class="wrapper">
+                <div class="container" id="c0">
+                    <div class="image" id="i0">
+                
+                        <div class="city">
+                        </div>
+                    </div>
+                    <div class="story" id="s0">
+                        <div class="info">
+                        <h3 style="text-align: center; text-shadow: 0px 0px 10px #eee; color: #eee; letter-spacing: 2px;">Infographie 2D</h3>
+                        <p class="graSousparagraph"> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="c1">
+                    <div class="image" id="i1">
+                        <div class="city">
+                        </div>
+                    </div>
+                    <div class="story" id="s1">
+                        <div class="info">
+                            <h3 style="text-align: center; text-shadow: 0px 0px 10px #eee; color: #eee; letter-spacing: 2px;">Infographie 3D</h3>
+                        <p class="graSousparagraph"> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="c2">
+                    <div class="image" id="i2">
+                        <div class="city">
+                        </div>
+                    </div>
+                    <div class="story" id="s2">
+                        <div class="info">
+                        <h3 style="text-align: center; text-shadow: 0px 0px 10px #eee; color: #eee; letter-spacing: 2px;">Peinture numérique</h3>
+                        <p class="graSousparagraph"> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <div style="display:flex;justify-content: center;">
+                <section class="graCards">
+    
+                    <article class="graCard card--1">
+                    <div class="card__img"></div>
+                    <a class="card_link">
+                        <div class="card__img--hover"></div>
+                    </a>
+                    <div class="card__info">
+                        <h3 class="card__title">Peinture numérique</h3>
+                        <p class="card_paragraph"> Mes peintures numériques amateuese réalisées avec le logiciel Procreate.</p>
+                    </div>
+                    </article>
+                    
+                    
+                    <article class="graCard card--2">
+                    <div class="card__img"></div>
+                    <a class="card_link">
+                        <div class="card__img--hover"></div>
+                    </a>
+                    <div class="card__info">
+                        <h3 class="card__title">Infographie 2D</h3>
+                        <p class="card_paragraph"> Mes produits numériques y compris les logos, les brochures, etc. qui sont réalisées avec Photoshop, Illustrator, et Indesign</p>
+                    </div>
+                    </article>  
+                    
+                    <article class="graCard card--3">
+                    <div class="card__img"></div>
+                    <a class="card_link">
+                        <div class="card__img--hover"></div>
+                    </a>
+                    <div class="card__info">
+                        <h3 class="card__title">Infographie 3D</h3>
+                        <p class="card_paragraph"> Mes produits 3D réalisés avec Blender.</p>
+                    </div>
+                    </article>  
+                </section>
+            </div>
+        </div>
+
+        <!---Contact--->
+        <div>
+            <h1 class="contactTitre titre">Contact.</h1>
+            <div class="contactZone" style="display: flex; justify-content: center;">
+                <div class="contactBox1">
+                    <img src="homepage/contactZone/pavillon.png">
+                </div>
+                <div class="contactBox2">
+                    <p class="paragraph">Phone : 0685683832</p>
+                    <p class="paragraph">Email : pham@ameliart.fr</p>
+                    <!--<p class="paragraph">Follow me on</p>-->
+                </div>
+            </div>
+        
+        </div>
+
+        <!---Footage--->
+        <div class="footageZone">
+            <div class="inner-header flex"></div>
+            <div>
+                <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(144, 224, 239,0.7)" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0, 150, 199,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(2, 62, 138, 0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(0,81,143)" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="content flex">
+            <p class="paragraph">améliart.fr</p>
+        </div>
+
+
+    </body>
+</html>
