@@ -15,7 +15,8 @@
     "evolution": {
       "evolves_to": "Ivysaur",
       "level": 16
-    }
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
   },
   {
     "id": 4,
@@ -33,7 +34,8 @@
     "evolution": {
       "evolves_to": "Charmeleon",
       "level": 16
-    }
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
   },
   {
     "id": 7,
@@ -51,7 +53,8 @@
     "evolution": {
       "evolves_to": "Wartortle",
       "level": 16
-    }
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
   },
   {
     "id": 25,
@@ -69,6 +72,7 @@
     "evolution": {
       "evolves_to": "Raichu",
       "level": "Use Thunder Stone"
-    }
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
   }
 ]
